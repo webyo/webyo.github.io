@@ -65,11 +65,11 @@
 				<!-- navigation links -->
 				<div class="collapse navbar-collapse main-nav-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="#presentacio">PRESENTACIÓ</a></li>
-						<li><a href="#estudis">ESTUDIS</a></li>
-						<li><a href="#projectes">PROJECTES</a></li>
-						<li><a href="#experiencia">EXPERIÈNCIA</a></li>	
-						<li><a href="#contacte">CONTACTE</a></li>
+						<li><a href="#presentacio" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'presentacion']);">PRESENTACIÓ</a></li>
+						<li><a href="#estudis" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'estudios']);">ESTUDIS</a></li>
+						<li><a href="#projectes" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'proyectos']);">PROJECTES</a></li>
+						<li><a href="#experiencia" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'experiencia']);">EXPERIÈNCIA</a></li>	
+						<li><a href="#contacte" onClick="_gaq.push(['_trackEvent', 'Menu', 'click', 'contacte']);">CONTACTE</a></li>
 					</ul>
 				</div>
 			</div>
@@ -419,6 +419,7 @@
 	<script type="text/javascript" src="assets/js/jquery.localscroll-1.2.7-min.js"></script>	
 	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script>
+  setTimeout(‘_gaq.push([\'_trackEvent\', \'NoBounce\', \'Over 20 seconds\'])’,20000);
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
