@@ -9050,12 +9050,15 @@ body {
   font-size: 14px;
   color: #3c3c3c;
 }
+.footer{
+	color: white;
+}
 
 a {
-  color: #cf5037;
+  color: #2c3e50;
 }
 a:hover, a:focus {
-  color: #d97460;
+  color: #1a242f;
   text-decoration: none;
 }
 
@@ -9067,9 +9070,10 @@ a:hover, a:focus {
 .section {
   padding: 90px 0;
 }
+
 .section .heading {
   font-family: "Josefin Slab Light";
-  color: #bc341b;
+  color: #1a242f;
   font-size: 3em;
   line-height: 1.6;
   margin-top: 0;
@@ -9097,7 +9101,7 @@ a:hover, a:focus {
 .btn-primary,
 .btn-primary[disabled],
 .btn-primary.disabled {
-  background-color: #cf5037;
+  background-color: #2c3e50;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus,
 .btn-primary[disabled]:hover,
@@ -9138,7 +9142,7 @@ a:hover, a:focus {
 }
 
 .navbar-default {
-  background-color: #cf5037;
+  background-color: #2c3e50;
   border: none;
 }
 .navbar-default .navbar-nav {
@@ -9157,15 +9161,15 @@ a:hover, a:focus {
 }
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
   color: white;
-  background-color: #d97460;
+  background-color: #1a242f;
 }
 .navbar-default .navbar-nav li.active a {
   color: white;
-  background-color: #d97460;
+  background-color: #1a242f;
 }
 .navbar-default .navbar-nav li.active a:hover, .navbar-default .navbar-nav li.active a:focus {
   color: white;
-  background-color: #d97460;
+  background-color: #1a242f;
 }
 .navbar-default .navbar-toggle {
   border-color: white;
@@ -9186,7 +9190,7 @@ a:hover, a:focus {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url('../img/hero-bg.png?1378700994');
+  background-image: url('../img/hero-bg.jpg?1378700994');
   background-repeat: no-repeat;
   background-position: top center;
   padding-top: 125px;
@@ -9201,7 +9205,7 @@ a:hover, a:focus {
 
 .header {
   margin-bottom: 0;
-  color: white;
+  /*color: white;*/
 }
 .header .right {
   padding-top: 3em;
@@ -9213,7 +9217,7 @@ a:hover, a:focus {
 }
 @media (min-width: 768px) {
   .header .heading {
-    font-size: 3.5em;
+    /*font-size: 3.5em;*/
   }
 }
 .header p {
@@ -9283,7 +9287,7 @@ a:hover, a:focus {
 /*	About Me
 /*------------------------------------------------*/
 .about-me {
-  background-color: #ffe9c8;
+  background-color: #ecf0f1;
 }
 
 .social .sub-heading {
@@ -9350,7 +9354,7 @@ ul.social-icons .icon:hover {
 /*	Resume
 /*------------------------------------------------*/
 .resume {
-  background-color: #f4debe;
+  background-color: white;
 }
 
 /* timeline */
@@ -9361,10 +9365,10 @@ ul.social-icons .icon:hover {
   max-width: 960px;
 }
 .timeline .year {
-  background: #cf5037;
+  background: #2c3e50;
   font-size: 1em;
   line-height: 4;
-  color: #f4debe;
+  color: #ecf0f1;
   width: 6em;
   border-radius: 50%;
   margin-top: 0;
@@ -9378,7 +9382,7 @@ ul.social-icons .icon:hover {
 .timeline .month {
   display: block;
   margin-bottom: 15px;
-  color: #cf5037;
+  color: #2c3e50;
   font-size: 0.9em;
 }
 .timeline .month .icon {
@@ -9386,8 +9390,8 @@ ul.social-icons .icon:hover {
 }
 .timeline .event {
   width: 100%;
-  background: #f5e2c7;
-  border-color: #e5b267;
+  background: #ecf0f1;
+  border-color: #2c3e50;
   text-align: left;
   margin: 50px 0;
   padding: 1.3em;
@@ -9413,9 +9417,9 @@ ul.social-icons .icon:hover {
   border-radius: 0;
   width: 25px;
   height: 12px;
-  border-color: #f4debe;
+  border-color: #ecf0f1;
   border-width: 5px;
-  background: #cf5037;
+  background: #2c3e50;
   top: 1.8em;
   left: -29px;
 }
@@ -9450,7 +9454,7 @@ ul.social-icons .icon:hover {
   color: white;
 }
 .projects .heading {
-  color: white;
+  
 }
 
 /* project grid */
@@ -9609,7 +9613,7 @@ ul.social-icons .icon:hover {
 /*	Contacts
 /*------------------------------------------------*/
 .contacts {
-  background-color: #eed9b8;
+  background-color: #ecf0f1;
 }
 .contacts .google-map {
   margin: 40px 0;
@@ -9746,7 +9750,8 @@ ul.social-icons .icon:hover {
 /*	Footer
 /*------------------------------------------------*/
 .footer {
-  background-color: #e4c38f;
+background-color: #2c3e50;
+
   text-align: center;
   font-size: 0.8em;
   padding: 15px 0;
